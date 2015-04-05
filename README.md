@@ -14,6 +14,16 @@ An IDE package for Laravel
 
 # The Plan
 
-## Phase one
+#### Phase One
+  
+  - LaraEdit will provide a working code editor.
+  
+#### Phase Two
+
+  - LaraEdit will provide a working terminal emulator to accompany the code editor.
+
+#### Phase Three
+
+  - LaraEdit will gain the ability to interface with LaraGit (https://github.com/LaraEdit/LaraGit).
 
 
