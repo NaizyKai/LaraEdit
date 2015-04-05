@@ -11,3 +11,9 @@ An IDE package for Laravel
 - Visit the route:
   ``` /laraedit ```
 - Enjoy!
+
+# The Plan
+
+## Phase one
+
+
