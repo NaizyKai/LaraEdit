@@ -9,11 +9,22 @@ Now I am back! And I have brought with me, a new set of blueprints for what I wo
 
 I hate to leave you hanging like this, but there will be more to come soon!
 
-# Installation
+# Installation (Standalone)
 - Add the LaraEdit package to your composer requirements:
   ``` "laraedit/laraedit": "dev-master", ```
 - Add the LaraEdit Service hook to your app config:
   ``` "LaraEdit\LaraEdit\LaraEditServiceProvider" ```
+- Publish the LaraEdit assets using Artisan:
+  ``` php artisan vendor:publish ```
+- Visit the route:
+  ``` /laraedit ```
+- Enjoy!
+
+# Installation (With LaraGit)
+- Add the LaraEdit package to your composer requirements:
+  ``` "laraedit/laraedit": "dev-master", ```
+- Add the LaraEdit Service hook to your app config:
+  ``` "LaraEdit\LaraEdit\LaraGitServiceProvider" ```
 - Publish the LaraEdit assets using Artisan:
   ``` php artisan vendor:publish ```
 - Visit the route:
