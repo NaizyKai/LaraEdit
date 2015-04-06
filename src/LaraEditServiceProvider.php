@@ -12,7 +12,7 @@ class LaraEditServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->publishes([
-    			__DIR__.'/../public/' => public_path('vendor/laraedit'),
+    			__DIR__.'/../public/' => public_path('vendor/laraedit')
 		], 'public');
 
 		$this->loadViewsFrom(__DIR__.'/Views', 'laraedit');
