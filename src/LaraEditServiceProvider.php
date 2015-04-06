@@ -1,6 +1,4 @@
-<?php
-
-namespace LaraEdit\LaraEdit;
+<?php namespace LaraEdit\LaraEdit;
 
 use Illuminate\Support\ServiceProvider;
 
