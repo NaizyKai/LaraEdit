@@ -1,6 +1,8 @@
 # LaraEdit
 An IDE package for Laravel. 
 
+<img src="https://scontent-atl.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11146276_558191044322900_5312328240064539460_n.png?oh=3ede5b07790ec20c370e37573086de33&oe=55AD053C"/>
+
 I started building LaraEdit around October of 2014 and was able to package a working code editor and terminal emulator for Laravel 4 rather quickly (https://github.com/iBourgeois/LaraEdit). However, shortly after gaining traction I wanted to upgrade the package to work on Laravel 5 which was to be released soon there after.
 
 After several delays in the release of L5, I was forced to sideline the project momentarily. 
