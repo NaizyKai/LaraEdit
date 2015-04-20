@@ -5,3 +5,11 @@ body {
 .navbar {
 	background: #E74C3C;
 }
+
+.navbar .navbar-brand {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: "Orbitron", sans-serif;
+	font-weight: bold;
+	font-size: 17pt;
+}
