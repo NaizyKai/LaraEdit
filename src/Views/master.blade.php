@@ -9,7 +9,10 @@
 
         <link rel="stylesheet" href="/vendor/laraedit/css/bootstrap.min.css">
         <link rel="stylesheet" href="/vendor/laraedit/css/bootstrap-theme.min.css">
-        <link href="http://fonts.googleapis.com/css?family=Orbitron:400,900" rel="stylesheet" />
+
+        <link rel="stylesheet" href="/vendor/laraedit/css/fonts.css">
+
+        <!-- <link href="http://fonts.googleapis.com/css?family=Orbitron:400,900" rel="stylesheet" /> -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         
         <link rel="stylesheet" href="/vendor/laraedit/css/laraedit.css">

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Black'), 
+  	local('Orbitron-Regular'), 
+  	url(../fonts/Orbitron-Black.ttf) format('truetype'), 
+  	url(http://fonts.gstatic.com/s/orbitron/v6/HmnHiRzvcnQr8CjBje6GQvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), 
+  	url(http://fonts.gstatic.com/s/orbitron/v6/94ug0rEgQO_WuI_xKJMFc_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Orbitron-Bold'), 
+  	url(../fonts/Orbitron-Bold.ttf) format('truetype'), 
+  	url(http://fonts.gstatic.com/s/orbitron/v6/FyvTORElv6iWeP2Jf9yG3Y4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'),
+  	url(http://fonts.gstatic.com/s/orbitron/v6/FyvTORElv6iWeP2Jf9yG3YbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
