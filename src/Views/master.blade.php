@@ -22,7 +22,7 @@
     <body>
         @include('laraedit::partials.global.navbar')
         
-        <div class="page">
+        <div class="container-fluid page">
             @yield('page')
         </div>
 
