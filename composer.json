@@ -20,9 +20,5 @@
         "psr-4": {
             "LaraEdit\\LaraEdit\\": "src/"
         }
-    },
-    "scripts": {
-        "post-install-cmd": "php artisan vendor:publish",
-        "post-update-cmd": "php artisan vendor:publish --tag=public --force"
     }
 }
