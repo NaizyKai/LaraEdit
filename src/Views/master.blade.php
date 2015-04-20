@@ -34,7 +34,7 @@
         <script src="/vendor/laraedit/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
         <script>
             var editor = ace.edit("laraedit");
-            editor.setTheme("ace/theme/monokai");
+            editor.setTheme("ace/theme/laraedit");
             editor.getSession().setMode("ace/mode/php");
         </script>
   </body>
