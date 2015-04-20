@@ -31,5 +31,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
         <script src="/vendor/laraedit/js/bootstrap.min.js"></script>
+        <script src="/vendor/laraedit/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            var editor = ace.edit("laraedit");
+            editor.setTheme("ace/theme/monokai");
+            editor.getSession().setMode("ace/mode/php");
+        </script>
   </body>
 </html>
