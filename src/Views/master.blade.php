@@ -22,7 +22,9 @@
     <body>
         @include('laraedit::partials.global.navbar')
         
-        @yield('page')
+        <div class="page">
+            @yield('page')
+        </div>
 
         @include('laraedit::partials.global.quicknav')
 
