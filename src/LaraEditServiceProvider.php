@@ -18,7 +18,7 @@ class LaraEditServiceProvider extends ServiceProvider {
 		
 		$this->publishes([
 
-            __DIR__.'/../public' => public_path('vendor/laraedit')
+            __DIR__.'/../public' => public_path('vendor/laraedit/laraedit')
             
         ]);
 
