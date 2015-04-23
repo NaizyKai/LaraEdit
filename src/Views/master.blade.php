@@ -36,9 +36,24 @@
         <script src="/vendor/laraedit/js/bootstrap.min.js"></script>
         <script src="/vendor/laraedit/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
         <script>
+
             var editor = ace.edit("laraedit");
             editor.setTheme("ace/theme/laraedit");
             editor.getSession().setMode("ace/mode/php");
+
+            $('.quicknav-button.editor').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            })
+
+            $('.quicknav-button.terminal').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            })
+
+            $('.quicknav-button.editor').tab('show')
+            $('.quicknav-button.terminal').tab('show')
+
         </script>
   </body>
 </html>
